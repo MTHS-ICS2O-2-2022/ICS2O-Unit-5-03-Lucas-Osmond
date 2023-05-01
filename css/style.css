@@ -10,7 +10,11 @@
 
 .mdl-layout__header-row {
   justify-content: content;
-  padding: 0;
+  padding: 10px;
+}
+
+.web-content {
+  padding: 15px;
 }
 
 .mdl-layout__content {
