@@ -17,6 +17,6 @@ function myButtonClicked () {
   } else if (age >= 13) {
     document.getElementById('response').innerHTML = 'You can Watch pg 13!'
   } else {
-    document.getElementById('response').innerHTML = 'You cannot Watch!'
+    document.getElementById('response').innerHTML = 'You cannot Watch any Movie, Sorry'
   }
 }
