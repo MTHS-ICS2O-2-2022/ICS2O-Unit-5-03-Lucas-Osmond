@@ -13,9 +13,9 @@ function myButtonClicked () {
   const age = parseInt(document.getElementById("age").value)
 
   if (age >= 18) {
-    document.getElementById('response').innerHTML = 'You can Watch!'
+    document.getElementById('response').innerHTML = 'You can Watch any Movie!'
   } else if (age >= 13) {
-    document.getElementById('response').innerHTML = 'You can Watch!'
+    document.getElementById('response').innerHTML = 'You can Watch pg 13!'
   } else {
     document.getElementById('response').innerHTML = 'You cannot Watch!'
   }
